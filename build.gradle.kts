@@ -42,13 +42,13 @@ publishing {
 
             pom {
                 name.set("com.koralix.security:mc-simple-security")
-                description.set("Step Functions is a java library to create functions step-by-step with multi-branch logic.")
-                url.set("https://github.com/Koralix-Studios/step-functions")
+                description.set("This is a simple security provider based on Minecraft sessions.")
+                url.set("https://github.com/Koralix-Studios/mc-simple-security")
 
                 licenses {
                     license {
                         name.set("The Apache License, Version 2.0")
-                        url.set("https://github.com/Koralix-Studios/step-functions/blob/master/LICENSE")
+                        url.set("https://github.com/Koralix-Studios/mc-simple-security/blob/master/LICENSE")
                     }
                 }
 
@@ -64,7 +64,7 @@ publishing {
                 scm {
                     connection.set("scm:git:git://github.com/koralix-studios/mc-simple-security.git")
                     developerConnection.set("scm:git:ssh://github.com/koralix-studios/mc-simple-security.git")
-                    url.set("https://github.com/Koralix-Studios/step-functions/tree/master")
+                    url.set("https://github.com/Koralix-Studios/mc-simple-security/tree/master")
                 }
             }
         }
